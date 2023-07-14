@@ -14,7 +14,8 @@
     "prebuild": "rm -rf dist",
     "start:debug": "nest start --debug --watch",
     "start:dev": "nest start --watch",
-    "start:prod": "node main.js"
+    "start:prod": "node main.js",
+    "start": "node main.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

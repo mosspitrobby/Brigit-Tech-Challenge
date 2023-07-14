@@ -51,8 +51,8 @@ import helmet from 'helmet';
       extended: true,
     }),
   );
-  const port = process.env.PORT || 8081;
-  const host = process.env.HOST || 'localhost';
+  const port = process.env.PORT || 8080;
+  const host = process.env.HOST || '0.0.0.0';
   // swagger documentation
   const config = new DocumentBuilder()
     .setTitle('Bridgit Technical Comptetence API')
